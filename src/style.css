@@ -643,6 +643,14 @@ button:focus {
   justify-content: center;
 }
 
+.resume .react-pdf__Page {
+  margin-bottom: 30px;
+}
+
+.resume .react-pdf__Page:last-child {
+  margin-bottom: 0;
+}
+
 .resume-left {
   padding-right: 80px !important;
 }
