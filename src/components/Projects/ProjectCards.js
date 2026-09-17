@@ -5,6 +5,12 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
+  const hasFooterContent =
+    props.ghLink ||
+    props.demoLink ||
+    props.siteLink ||
+    (props.siteLinks && props.siteLinks.length > 0);
+
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
@@ -16,23 +22,46 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
       </Card.Body>
-      <Card.Footer>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
+      {hasFooterContent && (
+        <Card.Footer>
+          {props.ghLink && (
+            <Button variant="primary" href={props.ghLink} target="_blank">
+              <BsGithub /> &nbsp;
+              {props.isBlog ? "Blog" : "GitHub"}
+            </Button>
+          )}
 
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp; Demo
-          </Button>
-        )}
-      </Card.Footer>
+          {!props.isBlog && props.demoLink && (
+            <Button
+              variant="primary"
+              href={props.demoLink}
+              target="_blank"
+              style={{ marginLeft: props.ghLink ? "10px" : 0 }}
+            >
+              <CgWebsite /> &nbsp; Demo
+            </Button>
+          )}
+
+          {props.siteLink && (
+            <Button variant="primary" href={props.siteLink} target="_blank">
+              <CgWebsite /> &nbsp; Ver sitio
+            </Button>
+          )}
+
+          {props.siteLinks &&
+            props.siteLinks.map((link, index) => (
+              <Button
+                key={index}
+                variant="primary"
+                href={link.url}
+                target="_blank"
+                style={{ marginLeft: index > 0 ? "10px" : 0 }}
+              >
+                <CgWebsite /> &nbsp; {link.label}
+              </Button>
+            ))}
+        </Card.Footer>
+      )}
     </Card>
   );
 }
