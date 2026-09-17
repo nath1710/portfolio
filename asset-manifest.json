@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f806e561.css",
-    "main.js": "/portfolio/static/js/main.8efd2ef5.js",
+    "main.css": "/portfolio/static/css/main.9d98b340.css",
+    "main.js": "/portfolio/static/js/main.cec659d2.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Lavca-2026.png": "/portfolio/static/media/Lavca-2026.f358493f4311b8d2f8d8.png",
@@ -14,7 +14,6 @@
     "static/media/Dongfeng-2026.png": "/portfolio/static/media/Dongfeng-2026.9e486870e53ffce32c19.png",
     "static/media/combia-2026.png": "/portfolio/static/media/combia-2026.177f123fb2add1d06a8e.png",
     "static/media/sampi-2026.png": "/portfolio/static/media/sampi-2026.ec037e862b86f6c737d6.png",
-    "static/media/Resume_Nataly-Hernandez.pdf": "/portfolio/static/media/Resume_Nataly-Hernandez.cb826897c4357a60fa95.pdf",
     "static/media/stablix-2026.png": "/portfolio/static/media/stablix-2026.d687b29cc8897c7837f0.png",
     "static/media/Geos-2026.png": "/portfolio/static/media/Geos-2026.007d12cb280f204459ae.png",
     "static/media/hidrochem-2026.png": "/portfolio/static/media/hidrochem-2026.07bb157a256001e62ff8.png",
@@ -26,6 +25,7 @@
     "static/media/starwarsBlog.png": "/portfolio/static/media/starwarsBlog.67a6facbd0bb0915282f.png",
     "static/media/Pacs-2026.png": "/portfolio/static/media/Pacs-2026.4107a442c5faf1ff4448.png",
     "static/media/rockpaperscissors.png": "/portfolio/static/media/rockpaperscissors.a92bc0420beeea28ff49.png",
+    "static/media/Resume_Nataly-Hernandez.pdf": "/portfolio/static/media/Resume_Nataly-Hernandez.4eb12c15052e87d85639.pdf",
     "static/media/ecoa-2026.png": "/portfolio/static/media/ecoa-2026.cfe04e30940ca4eb8503.png",
     "static/media/todolist.png": "/portfolio/static/media/todolist.0e4aca9a562a9d5f964f.png",
     "static/media/randomcard.png": "/portfolio/static/media/randomcard.ef3e3551068b3b88e89e.png",
@@ -34,13 +34,13 @@
     "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
-    "main.f806e561.css.map": "/portfolio/static/css/main.f806e561.css.map",
-    "main.8efd2ef5.js.map": "/portfolio/static/js/main.8efd2ef5.js.map",
+    "main.9d98b340.css.map": "/portfolio/static/css/main.9d98b340.css.map",
+    "main.cec659d2.js.map": "/portfolio/static/js/main.cec659d2.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f806e561.css",
-    "static/js/main.8efd2ef5.js"
+    "static/css/main.9d98b340.css",
+    "static/js/main.cec659d2.js"
   ]
 }
